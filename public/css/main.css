@@ -161,6 +161,40 @@ img{
 	box-shadow: var(--shadow);
 }
 
+.animation{
+	height: 400px;
+	background:#00FFFF ;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-overflow: hidden;
+
+}
+
+.animation h1{
+	color: var(--light);
+	font-size: 5rem;
+	outline: none;
+	line-height: 1.1em;
+	text-align: center;
+	user-select: none;
+	transform: rotate(-20deg) ;
+	text-shadow: -1px 1px #cacaca,
+	             -2px 2px #cacaca,
+                 -3px 3px #cacaca,
+                 -4px 4px #cacac4,
+                 -5px 5px #cacaca,
+                 -6px 6px #cacaca,
+                 -7px 7px #cacaca,
+                 -8px 8px #cacaca,
+                 -9px 9px #cacaca,
+                 -10px 10px #cacaca,
+                 -11px 11px #cacaca,
+                 -12px 12px #cacaca,
+                 -20px 20px rgba(0, 0, 0, 0.2)
+}
+
 footer{
 	margin-top: 2rem;
 	background: var(--dark);
